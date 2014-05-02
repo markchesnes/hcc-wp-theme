@@ -1,0 +1,136 @@
+/* @import url('reset.css'); */
+
+@media (min-width: 1170px) {
+  	.container {
+    	width: 1040px;
+  	}
+}
+
+/*
+ * TODO: Add logo size for each media query;
+ */
+
+/*
+ *	Main Page Container
+ */
+
+ body{
+ 	background: url('hoffman.png') repeat;
+ }
+
+.container{
+	margin: 0 auto;
+}
+
+.row{
+	padding: 0 40px 0px 30px;	
+}
+
+.page {
+	position: relative;
+	border: 1px solid #FFF;
+	border-width: 1px 0;
+	background-color: #FBFBFB;
+	box-shadow: 0 2px 2px RGBA(0,0,0,0.1);
+	margin: 25px 0 18px 0;
+	padding: 50px 40px 30px 30px;
+}
+
+/*
+ *	Nameplate Header
+ */
+
+#nameplate{
+	margin-bottom: 40px;
+}
+
+#nameplate .logo{
+	background: url('185x185.jpg') no-repeat center;
+	height: 185px; 
+}
+
+#nameplate .sitename{
+
+}
+
+/*
+ *	Navigation
+ */
+
+#hcc_breadcrumb{
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+}
+ 
+#hcc_breadcrumb li{
+    float:left;
+    margin-right:15px;
+}
+ 
+#hcc_breadcrumb .hcc_breadcrumb_separator{
+    font-weight:700;
+    font-size:20px;
+    color:#999;
+}
+
+/*
+ *	Sidebar
+ */
+
+input, select{
+	margin-top: 20px;
+}
+.btn-group{
+	margin-top: 20px;
+	width:100%;
+}
+
+.nav-button{
+	width:100%;
+}
+
+.dropdown-menu{
+	width:100%;;
+}
+
+/*
+ *	Posts
+ */
+
+.post_highlight {
+	padding: 9px 14px;
+	margin-bottom: 14px;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+	border-radius: 4px;
+}
+
+.pager{
+	float:right;
+}
+
+/*
+ *	Footer
+ */
+
+.footer{
+	margin: 0 0 18px 0;
+	padding: 0 40px 30px 30px;
+}
+
+.footer .credit{
+	float:left;
+}
+
+.footer .copyright{
+	float:right;
+}
+
+/*
+ *	Formatting Toolbox
+ */
+
+.clear{
+	clear: both;
+}
